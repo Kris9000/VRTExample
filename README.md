@@ -11,7 +11,7 @@ Je wordt **niet** specifiek beoordeeld op of je code al dan niet buildt, runt, o
 `ProgramsService.swift`
 
 -  Gebruik de TokenAPI om een mock access token te verkrijgen en verbind de call hiervoor aan de call naar de MockAPI
--  Als de MockAPI een error geeft, dan moet er tot maximum drie keer opnieuw geprobeerd worden omm de call uit te voeren
+-  Als de MockAPI een error geeft, dan moet er tot maximum drie keer opnieuw geprobeerd worden om de call uit te voeren
 
 `ProgramListViewModel.swift`
 
