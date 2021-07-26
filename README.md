@@ -6,12 +6,12 @@ Je wordt **niet** specifiek beoordeeld op of je code al dan niet buildt, runt, o
 
 ## De opdrachten:
 
-`ProgramsService.swift`
-
 > *Tip: Je lost deze waarschijnlijk best in volgorde op*
 
+`ProgramsService.swift`
+
 -  Gebruik de TokenAPI om een mock access token te verkrijgen en verbind de call hiervoor aan de call naar de MockAPI
--  Als de MockAPI een error geeft, dan moet er tot maximum drie keer opnieuw geprobeerd worden omm de call uit te voeren
+-  Als de MockAPI een error geeft, dan moet er tot maximum drie keer opnieuw geprobeerd worden om de call uit te voeren
 
 `ProgramListViewModel.swift`
 
@@ -19,7 +19,7 @@ Je wordt **niet** specifiek beoordeeld op of je code al dan niet buildt, runt, o
 
 `ListView.swift`
 
-- Vervang lijn 5 (`let list = ProgramListViewModel(service: ProgramsService())`) door iets dat meer loosely coupled is. De inhoud van `ExampleApp.swift` zou je voldoende moeten zeggen.
+- Vervang lijn 5 (`let list = ProgramListViewModel(service: ProgramsService())`) door iets dat meer "loosely coupled" is. De inhoud van `ExampleApp.swift` zou je voldoende moeten zeggen.
 - Als er op een programmatitel getapt wordt moet er een `DetailView` gepusht worden.
 
 Veel succes!
