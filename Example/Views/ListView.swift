@@ -6,8 +6,7 @@ struct ListView: View {
 
     var body: some View {
         NavigationView {
-            List {
-                ForEach(list.programs, id: \.self) { program in
+            List(list.programs) { program in
                     // TODO: Tapping a program title should open a DetailView
                     HStack{
                         Image(systemName: program.iconName)
@@ -16,7 +15,6 @@ struct ListView: View {
                         Text(program.name)
                             .font(.body)}
                 }
-            }
             .font(.largeTitle)
             .navigationTitle("Programma's")
             .navigationBarTitleDisplayMode(.inline)

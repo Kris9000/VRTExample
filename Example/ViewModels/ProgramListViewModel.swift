@@ -5,10 +5,6 @@ class ProgramListViewModel: ViewModel {
     
     @Published var programs: [ProgramViewModel] = []
     private let service: ProgramsService
-    
-    init(service: ProgramsService) {
-        self.service = service
-    }
 
     // TODO: Use the ProgramsService to load the programs and assign viewmodels of them to the programs property
 }
